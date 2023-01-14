@@ -1,0 +1,110 @@
+.about{
+    width: auto;
+    //height: 80vh;
+    height: fit-content;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    //background-color: rgb(240, 240, 240);
+    //background-image: url('https://res.cloudinary.com/dbzzj25vc/image/upload/v1673104221/Quinproc/mesh-gradient_2_g7p2f7.png');
+    .heading{
+        font-size: 45px;
+        font-weight: 700;
+        color: rgb(89, 89, 89);
+        margin-bottom: 15px;
+        @media screen and (max-width: 700px) {
+            margin-top: 10vh;
+            text-align: center;
+            font-size: 8vw;
+        }
+    }
+    .sub__heading{
+        font-family: 'Raleway', sans-serif;
+        width: 40%;
+        text-align: center;
+        font-size: 16px;
+        @media screen and (max-width: 1100px) {
+            font-size: 1.8vw;
+            width: 70%;
+            margin-top: 1vh;
+            margin-bottom: 4vh;
+        }
+        @media screen and (max-width: 700px) {
+            width: 80%;
+            margin-bottom: 2vh;
+            font-size: 3vw;
+        }
+    }
+    .box__container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 20px;
+        .box__item{
+            background-color: rgba(247, 247, 247, 0.623);
+            border-radius: 5px;
+            overflow: hidden;
+            backdrop-filter: saturate(180%) blur(5px);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            .top__container{
+                img{
+                    height: 220px;
+                    width: 320px;
+                    object-fit: cover;
+                }
+            }
+            .bottom__container{
+                padding: 20px 15px;
+                .name{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 23px;
+                    font-weight: 600;
+                    color: rgb(49, 59, 69);
+                }
+                .position{
+                    font-size: 15px;
+                    font-weight: 200;
+                }
+            }
+            @media screen and (max-width: 700px) {
+                margin-bottom: 5vh;
+            }
+        }
+        @media screen and (max-width: 700px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        @media screen and (max-width: 1100px) {
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .dot__container{
+        display: flex;
+        gap: 10px;
+        margin-top: 3%;
+        .dot{
+            width: 20px;
+            height: 20px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+            box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            cursor: pointer;
+        }
+        .selected{
+            background-color: rgb(242, 136, 136);
+        }
+    }
+    @media screen and (max-width: 700px) {
+        padding-top: 0;
+    }
+    @media screen and (min-width: 1100px) {
+        //height: 100vh;
+        margin: 10vh 0 10vh 0;
+    }
+}

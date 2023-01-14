@@ -1,0 +1,97 @@
+.contact{
+    height: 80vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    cursor: default;
+    .heading{
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(89, 89, 89);
+        margin-bottom: 15px;
+        @media screen and (max-width: 700px) {
+            font-size: 12vw;
+            margin-top: 4vh;
+        }
+    }
+    .sub__heading{
+        font-size: 18px;
+        font-weight: 300;
+        width: 40%;
+        text-align: center;
+        margin-bottom: 50px;
+        @media screen and (max-width: 700px) {
+            width: 100%;
+            font-size: 3vw;
+        }
+        @media screen and (max-width: 1100px) {
+            width: 70%;
+        }
+    }
+    .input__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        gap: 18px;
+        .input__box{
+            width: 60%;
+            padding: 10px 15px;
+            font-size: 15px;
+            color:  rgb(235, 184, 184);
+            font-weight: 400;
+            border: 2px solid lightgray;
+            border-radius: 3px;
+            &:focus{
+                outline-color: rgb(235, 184, 184);
+            }
+            @media screen and (max-width: 700px) {
+                width: 100%;
+                padding: 10px 20px;
+                font-size: 18px;
+                font-weight: 500;
+                font-family: 'Poppins', 'sans-serif';
+            }
+        }
+        .submit__button{
+            width: 76%;
+            padding: 8px 0;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Poppins', 'sans-serif';
+            color: white;
+            border: none;
+            border-radius: 3px;
+            background-color: rgb(235, 184, 184);
+            cursor: pointer;
+            &:hover{
+                transition: 0.6s;
+                background-color: rgb(239, 171, 171);
+                color: white;
+            }
+            &:not(:hover){
+                transition: 0.4s;
+            }
+            @media screen and (max-width: 700px) {
+                width: 120%;
+                
+            }
+            
+        }
+        @media screen and (max-width: 700px) {
+            width: 60%;
+            gap: 30px;
+        }
+    }
+    @media screen and (max-width: 700px) {
+        height: 100vh;
+    }
+    @media screen and (min-width: 1100px) {
+        height: 100vh;
+        //margin: 10vh 0 10vh 0;
+    }
+}

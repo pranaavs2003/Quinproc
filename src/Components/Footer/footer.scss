@@ -1,0 +1,70 @@
+.footer{
+    width: auto;
+    background-image: url('https://products.ls.graphics/mesh-gradients/images/63.-Soft-Peach.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 25vh;
+        .top__items{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .top__container{
+                font-size: 40px;
+                font-family: 'Varela Round', sans-serif;
+                font-weight: 700;
+                margin-bottom: 2vh;
+                cursor: pointer;
+                @media screen and (max-width: 700px) {
+                    font-size: 30px;
+                }
+            }
+            .middle__container{
+                .icons__list{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+                    align-items: center;
+                    .icon__item{
+                        font-size: 28px;
+                        cursor: pointer;
+                        &:hover{
+                            transition: 0.5s;
+                            color: lightcoral;
+                        }
+                        &:not(:hover){
+                            transition: 0.5s;
+                        }
+                        @media screen and (max-width: 700px) {
+                            font-size: 22px;
+                        }
+                    }
+                }
+                margin-bottom: 5vh;
+            }
+            @media screen and (max-width: 700px) {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+        .bottom__container{
+            font-family: 'Poppins', sans-serif;
+            color: rgb(96, 96, 96);
+            @media screen and (max-width: 700px) {
+                font-size: 13px;
+            }
+        }
+        @media screen and (max-width: 700px) {
+            height: 12vh;
+            padding: 20px 5vw 30px;
+        }
+    }
+}
