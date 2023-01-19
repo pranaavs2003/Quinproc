@@ -1,0 +1,106 @@
+.article{
+    height: 100vh;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    .left__container{
+        font-family: 'Raleway', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        width: 40%;
+        color: rgb(28, 28, 44);
+                background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+	            -webkit-background-clip: text;
+	            -webkit-text-fill-color: transparent;
+        @media screen and (max-width: 1100px) {
+            flex-direction: column;
+            width: 80%;
+            text-align: center;
+            font-size: 4.5vw;
+        }
+        @media screen and (max-width: 500px) {
+            flex-direction: column;
+            width: 90%;
+            text-align: center;
+            font-size: 8vw;
+        }
+    }
+    .right__container{
+        width: 40%;
+        .news__box{
+            width: 35vw;
+            border-radius: 10px;
+            overflow: hidden;
+            backdrop-filter: saturate(180%) blur(5px);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            img{
+                width: 35vw;
+                @media screen and (max-width: 1100px) {
+                    width: 40vw;
+                }
+                @media screen and (max-width: 900px) {
+                    width: 60vw;
+                }
+                @media screen and (max-width: 700px) {
+                    width: 75vw;
+                }
+                @media screen and (max-width: 600px) {
+                    width: 80vw;
+                }
+                @media screen and (max-width: 500px) {
+                    width: 90vw;
+                }
+                @media screen and (max-width: 400px) {
+                    width: 100vw;
+                }
+            }
+            .news__description{
+                font-size: 1.2vw;
+                font-family: 'Raleway', sans-serif;
+                //width: 35vw;
+                font-weight: 600;
+                text-align: center;
+                padding: 2vh 0;
+                color: rgb(58, 58, 58);
+                @media screen and (max-width: 900px) {
+                    font-size: 2.1vw;
+                }
+                @media screen and (max-width: 700px) {
+                    font-size: 2vw;
+                }
+            }
+            @media screen and (max-width: 1100px) {
+                width: 40vw;
+            }
+            @media screen and (max-width: 900px) {
+                width: 60vw;
+            }
+            @media screen and (max-width: 700px) {
+                width: 75vw;
+            }
+            @media screen and (max-width: 600px) {
+                width: 80vw;
+            }
+            @media screen and (max-width: 500px) {
+                width: 90vw;
+            }
+            @media screen and (max-width: 400px) {
+                width: 100vw;
+            }
+        }
+        @media screen and (max-width: 1100px) {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            justify-content: center;
+        }
+    }
+    @media screen and (max-width: 1100px) {
+        flex-direction: column;
+    }
+}

@@ -9,7 +9,9 @@ export default function Navbar() {
         <div className="link__container">
           <span className="link__item">Home</span>
           <span className="link__item">Our Product</span>
+          <span className="link__item">Features</span>
           <span className="link__item">About Us</span>
+          <span className="link__item">Achievements</span>
           <span className="link__item">Contact</span>
         </div>
       </div>
