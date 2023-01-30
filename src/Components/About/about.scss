@@ -1,13 +1,14 @@
 .about{
     width: auto;
-    //height: 80vh;
+    //height: 85vh;
     height: fit-content;
     padding: 40px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Raleway', sans-serif;
-    //background-color: rgb(240, 240, 240);
+    //background-color: rgb(255, 255, 255);
+    background-color: rgb(254, 237, 237);
     //background-image: url('https://res.cloudinary.com/dbzzj25vc/image/upload/v1673104221/Quinproc/mesh-gradient_2_g7p2f7.png');
     .heading{
         font-size: 45px;
@@ -51,10 +52,14 @@
             backdrop-filter: saturate(180%) blur(5px);
             box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
             .top__container{
+                background-color: white;
                 img{
                     height: 220px;
                     width: 320px;
                     object-fit: cover;
+                }
+                .obj-fit{
+                    object-fit: contain;
                 }
             }
             .bottom__container{
@@ -68,6 +73,12 @@
                 .position{
                     font-size: 15px;
                     font-weight: 200;
+                }
+                .name{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 22px;
+                    font-weight: 600;
+                    color: rgb(49, 59, 69);
                 }
             }
             @media screen and (max-width: 700px) {
@@ -83,6 +94,16 @@
             align-items: center;
             justify-content: center;
         }
+        .disapp{
+            @media screen and (min-width: 700px) {
+                display: none;
+            }
+        }
+        .app{
+            @media screen and (max-width: 700px) {
+                display: none;
+            }
+        }
     }
     .dot__container{
         display: flex;
@@ -91,13 +112,18 @@
         .dot{
             width: 20px;
             height: 20px;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(230, 230, 230);
             border-radius: 50%;
             box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
             cursor: pointer;
         }
         .selected{
             background-color: rgb(242, 136, 136);
+        }
+        @media screen and (max-width: 700px) {
+            display: none;
+            //height: 100vh;
+            //margin: 10vh 0 10vh 0;
         }
     }
     @media screen and (max-width: 700px) {

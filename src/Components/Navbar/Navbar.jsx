@@ -1,18 +1,43 @@
 import React from "react";
 import "./navbar.scss";
 
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height,
+  };
+}
+
+const scroll1 = (lvl) => {
+  const { height } = getWindowDimensions();
+  window.scrollTo({
+    top: height * 0.95 * lvl + lvl * 0.025 * height,
+    behavior: "smooth",
+  });
+};
+
 export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__container">
         <div className="title">Quinproc</div>
         <div className="link__container">
-          <span className="link__item">Home</span>
-          <span className="link__item">Our Product</span>
-          <span className="link__item">Features</span>
-          <span className="link__item">About Us</span>
-          <span className="link__item">Achievements</span>
-          <span className="link__item">Contact</span>
+          <span className="link__item" onClick={() => scroll1(1)}>
+            Our Product
+          </span>
+          <span className="link__item" onClick={() => scroll1(2)}>
+            Features
+          </span>
+          <span className="link__item" onClick={() => scroll1(3)}>
+            About Us
+          </span>
+          <span className="link__item" onClick={() => scroll1(4)}>
+            Achievements
+          </span>
+          <span className="link__item" onClick={() => scroll1(5)}>
+            Contact
+          </span>
         </div>
       </div>
     </div>

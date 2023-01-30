@@ -6,7 +6,7 @@ export default function Features() {
     <div className="features">
       <div className="title">A New Age Fetal-Maternal Monitoring System</div>
       <div className="sub__title">
-        Designed with 6 years of research in collaboration with mothers,
+        Designed with 2 years of research in collaboration with mothers,
         gynecologists, nurses and other stakeholder.
       </div>
       <div className="features__container">
