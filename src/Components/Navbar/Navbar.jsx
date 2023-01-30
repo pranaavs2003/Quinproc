@@ -21,7 +21,12 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__container">
-        <div className="title">Quinproc</div>
+        {/* <div className="title">Quinproc</div> */}
+        <img
+          src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675072869/Quinproc/Logo_Quinproc_Alpha_t4mfdt.png"
+          alt="logo-img"
+          className="logo__img"
+        />
         <div className="link__container">
           <span className="link__item" onClick={() => scroll1(1)}>
             Our Product
