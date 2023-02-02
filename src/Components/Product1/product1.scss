@@ -1,0 +1,138 @@
+.product1{
+    height: fit-content;
+    width: auto;
+    //background-color: rgb(233, 233, 233);
+    background-color: white;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    scroll-snap-align: center;
+    .heading{
+        font-size: 45px;
+        font-weight: 700;
+        color: rgb(89, 89, 89);
+        margin-bottom: 15px;
+        width: 50%;
+        text-align: center;
+        @media screen and (max-width: 950px) {
+            width: 80%;
+        }
+        @media screen and (max-width: 700px) {
+            margin-top: 10vh;
+            text-align: center;
+            font-size: 8vw;
+            width: 90%;
+        }
+    }
+    .sub__heading{
+        font-family: 'Open Sans', sans-serif;
+        width: 40%;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        @media screen and (max-width: 1100px) {
+            font-size: 1.8vw;
+            width: 70%;
+            margin-top: 1vh;
+            margin-bottom: 4vh;
+        }
+        @media screen and (max-width: 700px) {
+            width: 80%;
+            margin-bottom: 2vh;
+            font-size: 3vw;
+        }
+    }
+    .products{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10vh;
+
+        .product__container{
+            width: 60%;
+            //background-color: lightgray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 20vh;
+            .text__container{
+                .top__text{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .sno{
+                        font-family: 'Roboto Mono', monospace;
+                        font-size: 30px;
+                        color: rgb(83, 83, 83);
+                    }
+                    .title{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 40px;
+                        font-weight: 600;
+                    }
+                }
+                .bottom__text{
+                    margin-top: 4vh;
+                    width: 80%;
+                    font-size: 20px;
+                    font-family: 'Open Sans', sans-serif;
+                    //margin-left: 8%;
+                }
+                .rev{
+                    width: 100%;
+                }
+                .more__button{
+                    width: fit-content;
+                    padding: 10px 15px;
+                    background-color: lightpink;
+                    border-radius: 10px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
+                    //margin-left: 8%;
+                    margin-top: 6vh;
+                    cursor: pointer;
+                    color: white;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+                    &:hover{
+                        scale: 0.9;
+                        background-color: rgb(248, 167, 179);
+                        transition: 0.4s;
+                    }
+                    &:not(:hover){
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .put__end{
+                //justify-content: right;
+                //background-color: aquamarine;
+                padding-left: 10%;
+            }
+            .image__container{
+                .phone__pic{
+                    height: 60vh;
+                }
+            }
+            .image__container__belt{
+                height: 250px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+                .belt__img{
+                    width: 400px;
+                }
+            }
+        }
+        .reverse{
+            flex-direction: row-reverse;
+            align-items: center;
+            //background-color: bisque;
+        }
+    }
+}

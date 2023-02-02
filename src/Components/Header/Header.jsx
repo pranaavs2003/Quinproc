@@ -7,7 +7,7 @@ export default function Header() {
       <div className="header__container">
         <div className="left__container">
           <div className="top__text">
-            Pregnancy Monitoring Made Easy & Affordable
+          Innovative pregnancy monitoring, made simple.
           </div>
           <div className="bottom__text">
             Quinproc provides high-quality fetal and maternal monitoring
