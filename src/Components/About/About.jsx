@@ -88,7 +88,7 @@ export default function About() {
             />
           </div>
           <div className="bottom__container text-sm">
-            <div className="name text-sm">Dr. John Sahaya Rani Alex</div>
+            <div className="name text-sm">Dr. Annis Fathima</div>
             <div className="position">FOUNDER & CTO</div>
             {/* <div className="dept">B.Tech ECE</div> */}
           </div>
