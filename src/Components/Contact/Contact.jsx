@@ -69,62 +69,59 @@ export default function Contact() {
         Thank you for visiting our website. If you have any questions, comments,
         or suggestions, we would love to hear from you.
       </div>
-      <div className="input__container">
-        {/* <form
+      {/* <div className="input__container"> */}
+      {/* <form
           action="mailto:pranaavs2003@gmail.com"
           method="post"
           enctype="text/plain"
         > */}
-        <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            className="input__box"
-            placeholder="Name"
-            name="name"
-            onChange={(e) => setName(e.target.value)}
-          />
-          <input
-            type="text"
-            className="input__box"
-            placeholder="Email ID"
-            name="email"
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <input
-            type="text"
-            className="input__box"
-            placeholder="Contact Number"
-            name="number"
-            onChange={(e) => setNumber(e.target.value)}
-          />
-          <input
-            type="text"
-            className="input__box"
-            placeholder="Message"
-            name="message"
-            onChange={(e) => setMessage(e.target.value)}
-          />
-          <button
-            className="submit__button"
-            type="submit"
-            value="Send"
-            onClick={() => {
-              setIsSubmit(true);
-              sendEmail();
-            }}
-          >
-            Submit
-          </button>
-        </form>
-        {isSubmit && (
-          <div
-            className="form__submit"
-            style={{ color: " rgb(235, 184, 184)" }}
-          >
-            Your form has been submitted successfully.
-          </div>
-        )}
-      </div>
+      <form ref={form} onSubmit={sendEmail} className="input__container">
+        <input
+          type="text"
+          className="input__box"
+          placeholder="Name"
+          name="name"
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          type="text"
+          className="input__box"
+          placeholder="Email ID"
+          name="email"
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="text"
+          className="input__box"
+          placeholder="Contact Number"
+          name="number"
+          onChange={(e) => setNumber(e.target.value)}
+        />
+        <input
+          type="text"
+          className="input__box"
+          placeholder="Message"
+          name="message"
+          onChange={(e) => setMessage(e.target.value)}
+        />
+        <button
+          className="submit__button"
+          type="submit"
+          value="Send"
+          onClick={() => {
+            setIsSubmit(true);
+            sendEmail();
+          }}
+        >
+          Submit
+        </button>
+      </form>
+      {isSubmit && (
+        <div className="form__submit" style={{ color: " rgb(235, 184, 184)" }}>
+          Your form has been submitted successfully.
+        </div>
+      )}
+      {/* </div> */}
     </div>
   );
 }

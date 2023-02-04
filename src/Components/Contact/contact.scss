@@ -38,6 +38,7 @@
         align-items: center;
         width: 30%;
         gap: 18px;
+        //background-color: rgba(144, 238, 144, 0.61);
         .input__box{
             width: 60%;
             padding: 10px 15px;
@@ -69,6 +70,7 @@
             border-radius: 3px;
             background-color: rgb(235, 184, 184);
             cursor: pointer;
+            margin-bottom: 10px;
             a{
                 color: inherit;
             }

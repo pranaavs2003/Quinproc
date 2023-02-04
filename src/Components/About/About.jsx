@@ -10,9 +10,19 @@ function getWindowDimensions() {
   };
 }
 
+function switchSlider() {
+  // if (pos == 0) setPos(1);
+  // else setPos(0);
+  setTimeout(() => {
+    console.log("Printed");
+  }, 3);
+}
+
 export default function About() {
   const [pos, setPos] = useState(0);
   const { height, width } = getWindowDimensions();
+
+  switchSlider();
 
   return (
     <div className="about">

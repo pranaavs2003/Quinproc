@@ -12,10 +12,12 @@ function getWindowDimensions() {
 const scroll1 = (lvl) => {
   const { height } = getWindowDimensions();
   window.scrollTo({
-    top: height * 0.95 * lvl + lvl * 0.025 * height,
+    top: lvl > 1 ? height * (lvl + 1) : height * lvl,
     behavior: "smooth",
   });
 };
+
+// top: height * 0.95 * lvl + lvl * 0.025 * height,
 
 export default function Navbar() {
   return (

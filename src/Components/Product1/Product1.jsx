@@ -1,6 +1,22 @@
 import React from "react";
 import "./product1.scss";
 
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height,
+  };
+}
+
+const scrollto = () => {
+  const { width, height } = getWindowDimensions();
+  window.scrollTo({
+    top: height * 3,
+    behavior: "smooth",
+  });
+};
+
 export default function Product1() {
   return (
     <div className="product1">
@@ -22,7 +38,9 @@ export default function Product1() {
               uses advanced technology to track and monitor various aspects of
               pregnancy such as fetal growth, maternal health, and contractions.
             </div>
-            <div className="more__button">Know More</div>
+            <div className="more__button" onClick={() => scrollto()}>
+              Know More
+            </div>
           </div>
           <div className="image__container">
             <img
@@ -46,7 +64,9 @@ export default function Product1() {
               such as fetal heart rate, uterine contractions, and maternal
               activity.
             </div>
-            <div className="more__button">Know More</div>
+            <div className="more__button" onClick={() => scrollto()}>
+              Know More
+            </div>
           </div>
           <div className="image__container__belt">
             <img

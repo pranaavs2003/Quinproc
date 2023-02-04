@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import "./features1.scss";
+import { motion } from "framer-motion";
+
+const variants = {
+  open: { opacity: 1, x: 0 },
+  closed: { opacity: 0, x: "-100%" },
+};
 
 export default function Features1() {
   const [current, setCurrent] = useState(0);
@@ -79,7 +85,7 @@ export default function Features1() {
               <span className="item__text">Privacy & Safety</span>
             </div>
           </div>
-          <div className="feature__text">{content[current]}</div>
+          <motion.div className="feature__text">{content[current]}</motion.div>
         </div>
         <div className="right__container">
           <img
