@@ -13,7 +13,7 @@ export default function Product() {
         <div className="box__item">
           <div className="top__container">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674141454/Quinproc/prod_ubxiki.png"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675684501/Quinproc/Maatr_TV_R5_pndnbf.png"
               alt="profile-img"
             />
           </div>

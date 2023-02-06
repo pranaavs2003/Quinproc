@@ -44,8 +44,7 @@ export default function Product1() {
           </div>
           <div className="image__container">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674151211/Quinproc/d8f1780744a29c11cd65b04c9d4047d3_ectqbu.png"
-              alt="product-image"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675684501/Quinproc/Maatr_TV_R5_pndnbf.png"
               className="phone__pic"
             />
           </div>
