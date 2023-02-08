@@ -13,7 +13,7 @@ export default function Product() {
         <div className="box__item">
           <div className="top__container">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675684501/Quinproc/Maatr_TV_R5_pndnbf.png"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674141454/Quinproc/prod_ubxiki.png"
               alt="profile-img"
             />
           </div>
@@ -30,12 +30,12 @@ export default function Product() {
         <div className="box__item">
           <div className="top__container">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674151211/Quinproc/d8f1780744a29c11cd65b04c9d4047d3_ectqbu.png"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675765085/Quinproc/Maatr_TV_R6-cut_h2zca7.png"
               alt="profile-img"
             />
           </div>
           <div className="bottom__container">
-            <div className="name">MaartrTV</div>
+            <div className="name">Maartrtv</div>
             <div className="position">
               A Smartphone application to remotely monitor patient vitals, which
               can be used by doctors and patients.

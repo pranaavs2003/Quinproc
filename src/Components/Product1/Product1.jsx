@@ -30,7 +30,7 @@ export default function Product1() {
           <div className="text__container">
             <div className="top__text">
               <div className="sno">01.</div>
-              <div className="title"> MaatrTV</div>
+              <div className="title"> Maatrtv</div>
             </div>
             <div className="bottom__text">
               Our pregnancy monitoring app is designed to provide expectant
@@ -44,7 +44,7 @@ export default function Product1() {
           </div>
           <div className="image__container">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675684501/Quinproc/Maatr_TV_R5_pndnbf.png"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675765085/Quinproc/Maatr_TV_R6-cut_h2zca7.png"
               className="phone__pic"
             />
           </div>

@@ -42,10 +42,10 @@ export default function Features() {
           </div>
         </div>
         <div className="middle__container">
-          <img
-            src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1673285410/Quinproc/cut1_jybqli.png"
+          {/* <img
+            src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675765849/Quinproc/zyro-image-1-cut-min_1_1_rckq7z.png"
             alt="preg-women"
-          />
+          /> */}
         </div>
         <div className="left__container">
           {/* (1,2) feature box */}
