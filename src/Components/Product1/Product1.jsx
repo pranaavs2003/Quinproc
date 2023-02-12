@@ -44,7 +44,7 @@ export default function Product1() {
           </div>
           <div className="image__container">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675765085/Quinproc/Maatr_TV_R6-cut_h2zca7.png"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1676184941/Quinproc/cut1_fo6dom.png"
               className="phone__pic"
             />
           </div>
@@ -69,7 +69,7 @@ export default function Product1() {
           </div>
           <div className="image__container__belt">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674141454/Quinproc/prod_ubxiki.png"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1676186010/Quinproc/cut6_nez3md.png"
               className="belt__img"
               alt="product-image"
             />

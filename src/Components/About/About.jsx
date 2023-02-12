@@ -70,7 +70,7 @@ export default function About() {
         >
           <div className="top__container">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674136075/Quinproc/photo_John_Sahaya_Rani_Alex_lqfier.jpg"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1676184941/Quinproc/cut3_hdq3cn.jpg"
               alt="profile-img"
               className="obj-fit"
             />
@@ -114,7 +114,7 @@ export default function About() {
         >
           <div className="top__container">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674651329/Quinproc/IMG_20221027_121223_z1oodi.jpg"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1676184940/Quinproc/cut2_cbgnmf.jpg"
               alt="profile-img"
               className="obj-fit"
             />
@@ -136,7 +136,7 @@ export default function About() {
         >
           <div className="top__container">
             <img
-              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674652107/Quinproc/1670956396767_ahz1i9.jpg"
+              src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1676184941/Quinproc/cut4_cqo5ho.jpg"
               alt="profile-img"
               className="obj-fit"
             />
@@ -177,7 +177,7 @@ export default function About() {
             <div className="box__item disapp">
               <div className="top__container">
                 <img
-                  src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674651329/Quinproc/IMG_20221027_121223_z1oodi.jpg"
+                  src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1676184940/Quinproc/cut2_cbgnmf.jpg"
                   alt="profile-img"
                 />
               </div>
@@ -190,7 +190,7 @@ export default function About() {
             <div className="box__item disapp">
               <div className="top__container">
                 <img
-                  src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1674652107/Quinproc/1670956396767_ahz1i9.jpg"
+                  src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1676184941/Quinproc/cut4_cqo5ho.jpg"
                   alt="profile-img"
                 />
               </div>

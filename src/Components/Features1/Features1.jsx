@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./features1.scss";
 import { motion } from "framer-motion";
-import SystemSecurityUpdateGoodIcon from '@mui/icons-material/SystemSecurityUpdateGood';
-import PregnantWomanIcon from '@mui/icons-material/PregnantWoman';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
+import SystemSecurityUpdateGoodIcon from "@mui/icons-material/SystemSecurityUpdateGood";
+import PregnantWomanIcon from "@mui/icons-material/PregnantWoman";
+import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
+import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
 
 const variants = {
   open: { opacity: 1, x: 0 },
@@ -23,12 +23,10 @@ export default function Features1() {
 
   return (
     <div className="features1">
-      <div className="title">
-        Next-Generation Fetal-Maternal Monitoring Redefined
-      </div>
+      <div className="title">Redefining Fetal monitoring</div>
       <div className="sub__title">
-        Developed through 2 Years of joint effort with Mothers, Gynecologists,
-        Nurses and Stakeholders
+        Engineering the next generation of healthcare with our innovative
+        products.
       </div>
       <div className="features">
         <div className="left__container">
@@ -41,7 +39,7 @@ export default function Features1() {
               <span className="item__icon">
                 <SystemSecurityUpdateGoodIcon className="tile-icon" />
               </span>
-              <span className="item__text">Remote Monitoring</span>
+              <span className="item__text">Distant Monitoring</span>
             </div>
 
             <div
@@ -52,7 +50,7 @@ export default function Features1() {
               <span className="item__icon">
                 <PregnantWomanIcon className="tile-icon" />
               </span>
-              <span className="item__text">Patient Comfort</span>
+              <span className="item__text">Comfort Care</span>
             </div>
 
             <div
@@ -63,7 +61,7 @@ export default function Features1() {
               <span className="item__icon">
                 <CheckCircleOutlineIcon className="tile-icon" />
               </span>
-              <span className="item__text">Auto Interpretation</span>
+              <span className="item__text">Automated Analysis</span>
             </div>
 
             <div
@@ -74,14 +72,14 @@ export default function Features1() {
               <span className="item__icon">
                 <HealthAndSafetyIcon className="tile-icon" />
               </span>
-              <span className="item__text">Privacy & Safety</span>
+              <span className="item__text">Data Security</span>
             </div>
           </div>
           <motion.div className="feature__text">{content[current]}</motion.div>
         </div>
         <div className="right__container">
           <img
-            src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675683176/Quinproc/zyro-image-1-cut-min_vyt9jn.png"
+            src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675765849/Quinproc/zyro-image-1-cut-min_1_1_rckq7z.png"
             alt="mother-img"
           />
         </div>

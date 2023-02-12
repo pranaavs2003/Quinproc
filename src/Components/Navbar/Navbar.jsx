@@ -25,9 +25,10 @@ export default function Navbar() {
       <div className="navbar__container">
         {/* <div className="title">Quinproc</div> */}
         <img
-          src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675072869/Quinproc/Logo_Quinproc_Alpha_t4mfdt.png"
+          src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1676186010/Quinproc/cut7_br3dcg.png"
           alt="logo-img"
           className="logo__img"
+          onClick={() => scroll1(0)}
         />
         <div className="link__container">
           <span className="link__item" onClick={() => scroll1(1)}>

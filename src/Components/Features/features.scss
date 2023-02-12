@@ -71,6 +71,13 @@
                 img{
                     height: 30px;
                 }
+                .tile-icon{
+                    height: 25px;
+                    color: rgb(249, 150, 165);
+                    &:hover{
+                        color: rgb(254, 131, 149);
+                    }
+                }
                 .box__title{
                     font-size: 22px;
                     font-family: 'Varela Round', sans-serif;

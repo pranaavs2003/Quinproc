@@ -16,7 +16,7 @@ export default function Header() {
         </div>
         <div className="right__container">
           <img
-            src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1675765085/Quinproc/Maatr_TV_R6-cut_h2zca7.png"
+            src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1676184941/Quinproc/cut1_fo6dom.png"
             alt="header-img"
             className="header__image"
           />
