@@ -72,7 +72,7 @@ export default function About1() {
                   target="_blank"
                   href="https://www.linkedin.com/in/mirunalini-aravindan-349456191?originalSubdomain=in"
                 >
-                  Mirunalini Aaravindhan
+                  Mirunalini Aravindan
                 </a>
               </div>
               <div className="title__container">FOUNDER & CEO</div>
