@@ -120,7 +120,7 @@ export default function About() {
             />
           </div>
           <div className="bottom__container">
-            <div className="name">Mirunalini Aaravindhan</div>
+            <div className="name">Mirunalini Aravindhan</div>
             <div className="position">FOUNDER & CEO</div>
             {/* <div className="dept">B.Tech ECE</div> */}
           </div>
@@ -182,7 +182,7 @@ export default function About() {
                 />
               </div>
               <div className="bottom__container">
-                <div className="name">Mirunalini Aaravindhan</div>
+                <div className="name">Mirunalini Aravindhan</div>
                 <div className="position">FOUNDER & CEO</div>
               </div>
             </div>
